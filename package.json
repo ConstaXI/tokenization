@@ -1,21 +1,32 @@
 {
-  "scripts": {
-    "compile": "truffle compile",
-    "build": "waffle",
-    "test": "export NODE_ENV=test && mocha",
-    "deploy": "truffle migrate"
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.3.1",
+    "web3": "^1.7.3"
   },
-  "devDependencies": {
-    "@types/chai": "^4.2.15",
-    "@types/mocha": "^8.2.1",
-    "chai": "^4.3.0",
-    "dotenv": "^8.2.0",
-    "ethereum-waffle": "^3.3.0",
-    "ethers": "^5.0.31",
-    "mocha": "^8.3.0",
-    "node-fetch": "^2.6.1",
-    "truffle-hdwallet-provider": "^1.0.17",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.2"
-  }
+  "name": "tokenization",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstaXI/tokenization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConstaXI/tokenization/issues"
+  },
+  "homepage": "https://github.com/ConstaXI/tokenization#readme",
+  "description": ""
 }
